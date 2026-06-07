@@ -1,0 +1,20 @@
+# Data — never commit (licensing + size)
+data/
+*.dta
+*.csv
+*.gz
+*.json
+*.shp
+*.dbf
+*.shx
+
+# Stata / build logs and outputs
+*.log
+*.smcl
+result/
+__pycache__/
+*.pyc
+
+# OS / editor cruft
+.DS_Store
+*.swp
