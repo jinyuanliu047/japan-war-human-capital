@@ -1,12 +1,34 @@
-# Data — never commit (licensing + size)
+# This repository is CODE ONLY.
+# Data — never commit (license-restricted: census/IPUMS, CGSS, CHIP, NBS; and size)
 data/
+raw/
 *.dta
 *.csv
+*.tsv
 *.gz
 *.json
+*.xlsx
+*.xls
 *.shp
 *.dbf
 *.shx
+*.parquet
+
+# LaTeX / outputs
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.xdv
+*.toc
+*.bbl
+*.blg
+*.pdf
+*.png
+*.eps
+output/
+tables/
+figures/
 
 # Stata / build logs and outputs
 *.log

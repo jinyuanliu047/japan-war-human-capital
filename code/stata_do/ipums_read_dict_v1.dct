@@ -1,0 +1,27 @@
+infix dictionary using "data/raw/census/ipumsi_00001.dat" {
+  int     year           4-7
+  double  sample         8-16
+  double  serial         17-28
+  double  perwt          215-222
+  double  geo3_cn1982    175-183
+  double  geo3_cn1990    184-192
+  double  geo3_cn2000    193-201
+  int     age            261-263
+  int     sex            266-266
+  int     birthyr        277-280
+  int     ethniccn       303-304
+  int     school         305-305
+  int     lit            306-306
+  int     edattain       307-307
+  int     edattaind      308-310
+  int     educcn         311-312
+  int     empstat        313-313
+  int     empstatd       314-316
+  int     labforce       317-317
+  int     occisco        319-320
+  int     occ            321-324
+  int     indgen         325-327
+  long    ind            328-332
+  int     migrate5       335-336
+  int     urban          75-75
+}
